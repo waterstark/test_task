@@ -12,7 +12,13 @@ requests = "^2.31.0"
 python-dotenv = "^1.0.0"
 pyrus-api = "^2.16.0"
 openpyxl = "^3.1.2"
+pytest = "^7.4.0"
+mock = "^5.1.0"
 
+
+[tool.poetry.group.dev.dependencies]
+devtools = "^0.11.0"
+dirty-equals = "^0.6.0"
 
 [build-system]
 requires = ["poetry-core"]
